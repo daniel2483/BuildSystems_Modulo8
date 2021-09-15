@@ -3,10 +3,12 @@
   <div class="login_form">
     <h2>Inicia Sesión</h2>
     <h3>Correo electrónico:</h3>
-    <input type="text" name="" value="" >
+    <input #email type="text" name="" value="" >
     <h3>Contraseña:</h3>
-    <input type="text" name="" value="">
+    <input #password type="text" name="" value="">
     <br><br>
-    <button type="button" name="button">Ingresar</button>
+    <button type="button" name="button" (click)="login_validation(email.value,password.value)">
+      Ingresar
+    </button>
   </div>
 </div>
