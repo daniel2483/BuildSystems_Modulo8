@@ -10,8 +10,7 @@ export class AppComponent {
   number = 0;
 
   login_validation(email: string,password: string){
-
-
+    
     const user = email;
     const pass = password;
 
@@ -29,7 +28,7 @@ export class AppComponent {
       }
     }
 
-    
+
 
 
   }
